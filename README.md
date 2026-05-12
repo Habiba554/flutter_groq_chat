@@ -1,16 +1,12 @@
-# flutter_with_ai
+# flutter_groq_chat
+A simple Flutter chat app integrated with Groq API using the LLaMA 3.1 8B Instant model.
 
-A new Flutter project.
+1. Get your free API Key
+Go to  https://console.groq.com/keys and generate a new API key.
 
-## Getting Started
+2. Add it to the project
+Open lib/send_message_request.dart and replace the placeholder with your key:
+final String apiKey = "your_api_key_here";
 
-This project is a starting point for a Flutter application.
+3. Run the app
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
